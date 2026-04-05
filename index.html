@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayurvedic Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      margin: 40px;
+    }
+    .header {
+      text-align: center;
+      color: #42b13f;
+    }
+    .result-box {
+      background-color: #8de58d;
+      text-align: center;
+      font-weight: bold;
+      padding: 8px;
+      margin-top: 10px;
+    }
+    .section {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    .lab-info, .address-info {
+      width: 45%;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .lab-results {
+      margin-top: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #7ab97a;
+      text-align: center;
+      padding: 8px;
+      font-size: 13px;
+    }
+    th {
+      background-color: #3e823e;
+      color: white;
+    }
+    .footer {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .validated {
+      background-color: #b5f7b5;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .barcode {
+      font-family: monospace;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Ayurvedic Report</h1>
+    <p>Laboratory of Ayurvedic Crops Sikkim</p>
+  </div>
+
+  <div class="result-box">Result: Passed</div>
+
+  <div class="section">
+    <div class="lab-info">
+      <p><strong>Lab ID:</strong> 10001</p>
+      <p><strong>Farmer ID:</strong> 1234</p>
+      <p><strong>Farmer Name:</strong> Kiran Rathod</p>
+    </div>
+    <div class="address-info">
+      <p><strong>Address:</strong></p>
+      <p>XYZ Village, Sikkim</p>
+    </div>
+  </div>
+
+  <div class="lab-results">
+    <h2>Lab Results</h2>
+    <table> 
+      <tr>
+        <th>Parameter</th>
+        <th>USHV</th>
+        <th>Sare</th>
+        <th>Vani Firolent</th>
+        <th>URW</th>
+        <th>100UP</th>
+      </tr>
+      <tr><td>Humidity</td><td>56.80</td><td>+7</td><td>+</td><td>6.94</td><td>5.72</td></tr>
+      <tr><td>Integrity</td><td>1.65</td><td>+8</td><td>+</td><td>2.71</td><td>0.88</td></tr>
+      <tr><td>Origin</td><td>8.72</td><td>✓</td><td>6.44</td><td>2.22</td><td>-</td></tr>
+      <tr><td>Pattern (Plant)</td><td>2.85</td><td>+</td><td>+</td><td>2.02</td><td>1.44</td></tr>
+      <tr><td>Sample Index</td><td>57.00</td><td>+</td><td>+</td><td>82.30</td><td>7.98</td></tr>
+    </table>
+  </div>
+
+  <div class="footer">
+    <div class="validated">Validated By: Shreyash Dabhade</div>
+    <div class="barcode">||| ||| ||| <br>301.41 00191</div>
+  </div>
+</body>
+</html>

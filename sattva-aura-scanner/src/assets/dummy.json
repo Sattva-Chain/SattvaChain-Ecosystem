@@ -1,0 +1,284 @@
+{
+  "coreProductInfo": {
+    "id": {
+      "value": "1",
+      "source": 3
+    },
+    "name": {
+      "value": "Organic Ashwagandha Powder",
+      "source": 4
+    },
+    "description": {
+      "value": "Premium quality Ashwagandha root powder for stress relief and vitality",
+      "source": 5
+    },
+    "price": {
+      "value": 24.99,
+      "source": 6
+    },
+    "originalPrice": {
+      "value": 29.99,
+      "source": 7
+    },
+    "category": {
+      "value": "Powder",
+      "source": 12
+    },
+    "weight": {
+      "value": "200g",
+      "source": 510
+    },
+    "stockStatus": {
+      "value": true,
+      "source": 15
+    },
+    "stockCount": {
+      "value": 25,
+      "source": 508
+    },
+    "userRatings": {
+      "rating": {
+        "value": 4.8,
+        "source": 9
+      },
+      "reviewsCount": {
+        "value": 234,
+        "source": 10
+      }
+    }
+  },
+  "originAndFarmerDetails": {
+    "originLocation": {
+      "value": "Wayanad, Kerala, India",
+      "source": 514
+    },
+    "farmerName": {
+      "value": "Rajesh Kumar",
+      "source": 512
+    },
+    "farmName": {
+      "value": "Green Valley Farms",
+      "source": 513
+    },
+    "farmerExperience": {
+      "value": "25 years",
+      "source": 515
+    }
+  },
+  "harvestAndBatchInfo": {
+    "batchId": {
+      "value": "TUR-2024-001234",
+      "source": 500
+    },
+    "harvestDate": {
+      "value": "2024-02-15",
+      "source": 519
+    },
+    "harvestMethod": {
+      "value": "Hand-picked",
+      "source": 520
+    },
+    "weatherDuringHarvest": {
+      "value": "Optimal conditions",
+      "source": 521
+    },
+    "soilHealth": {
+      "value": 92,
+      "source": 522
+    }
+  },
+  "qualitySafetyAndLabResults": {
+    "certifications": [
+      {
+        "value": "Organic",
+        "source": 524
+      },
+      {
+        "value": "Fair Trade",
+        "source": 524
+      },
+      {
+        "value": "FHIR Compliant",
+        "source": 524
+      },
+      {
+        "value": "Non-GMO",
+        "source": 524
+      }
+    ],
+    "labResults": {
+      "moisture": {
+        "value": "8.2%",
+        "source": 526
+      },
+      "curcumin": {
+        "value": "4.8%",
+        "source": 527
+      },
+      "pesticides": {
+        "value": "None detected",
+        "source": 528
+      },
+      "heavyMetals": {
+        "value": "Below limits",
+        "source": 529
+      },
+      "microbiology": {
+        "value": "Safe",
+        "source": 530
+      }
+    }
+  },
+  "sustainabilityAndSocialImpact": {
+    "sustainabilityTag": {
+      "value": "Fair Trade",
+      "source": 13
+    },
+    "sustainabilityScore": {
+      "value": 95,
+      "source": 502
+    },
+    "waterUsage": {
+      "value": "-40% vs conventional",
+      "source": 904
+    },
+    "carbonFootprint": {
+      "value": "-65% reduction",
+      "source": 908
+    },
+    "biodiversityIndex": {
+      "value": "88%",
+      "source": 921
+    },
+    "fairTradeImpact": {
+      "value": "12 farmers supported",
+      "source": 442
+    },
+    "communityInvestment": {
+      "value": "₹2,50,000",
+      "source": 939
+    },
+    "womenEmpowerment": {
+      "value": "60% participation",
+      "source": 943
+    }
+  },
+  "supplyChainAndTraceability": {
+    "verificationStatus": {
+      "value": true,
+      "source": 501
+    },
+    "supplyChainStages": [
+      {
+        "stage": {
+          "value": "Harvest",
+          "source": 534
+        },
+        "date": {
+          "value": "2024-02-15",
+          "source": 535
+        },
+        "location": {
+          "value": "Green Valley Farms, Kerala",
+          "source": 536
+        },
+        "actor": {
+          "value": "Rajesh Kumar",
+          "source": 537
+        },
+        "verified": {
+          "value": true,
+          "source": 538
+        }
+      },
+      {
+        "stage": {
+          "value": "Processing",
+          "source": 541
+        },
+        "date": {
+          "value": "2024-02-16",
+          "source": 542
+        },
+        "location": {
+          "value": "Kerala Processing Unit",
+          "source": 543
+        },
+        "actor": {
+          "value": "Spice Co-operative",
+          "source": 544
+        },
+        "verified": {
+          "value": true,
+          "source": 545
+        }
+      },
+      {
+        "stage": {
+          "value": "Quality Testing",
+          "source": 548
+        },
+        "date": {
+          "value": "2024-02-18",
+          "source": 549
+        },
+        "location": {
+          "value": "Certified Lab, Kochi",
+          "source": 550
+        },
+        "actor": {
+          "value": "Quality Labs India",
+          "source": 551
+        },
+        "verified": {
+          "value": true,
+          "source": 552
+        }
+      },
+      {
+        "stage": {
+          "value": "Packaging",
+          "source": 555
+        },
+        "date": {
+          "value": "2024-02-20",
+          "source": 556
+        },
+        "location": {
+          "value": "Packaging Center, Kerala",
+          "source": 557
+        },
+        "actor": {
+          "value": "Eco Pack Solutions",
+          "source": 558
+        },
+        "verified": {
+          "value": true,
+          "source": 559
+        }
+      },
+      {
+        "stage": {
+          "value": "Distribution",
+          "source": 562
+        },
+        "date": {
+          "value": "2024-02-22",
+          "source": 563
+        },
+        "location": {
+          "value": "Regional Hub, Mumbai",
+          "source": 564
+        },
+        "actor": {
+          "value": "Green Logistics",
+          "source": 565
+        },
+        "verified": {
+          "value": true,
+          "source": 566
+        }
+      }
+    ]
+  }
+}
